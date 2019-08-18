@@ -7,7 +7,7 @@
         "declaration": false,
         "noImplicitAny": false,
         "sourceMap": true,
-        "outDir": "./bin/"
+        "baseUrl": "."
     },
     "include": [
         "tests.ts",

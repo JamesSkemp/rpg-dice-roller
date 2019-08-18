@@ -4,3 +4,5 @@ var index_1 = require("../../types/index");
 var diceRoller = new index_1.DiceRoller();
 var roll = diceRoller.roll("3d6");
 console.log(roll);
+var diceRoll = new index_1.DiceRoll("3d6");
+console.log(diceRoll.roll());
