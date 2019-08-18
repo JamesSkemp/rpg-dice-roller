@@ -5,6 +5,7 @@
   "version": "3.1.5",
   "license": "MIT",
   "main": "lib/umd/bundle.js",
+  "types": "types/index.d.ts",
   "module": "lib/esm/bundle.js",
   "browser": "lib/umd/bundle.js",
   "repository": {
@@ -55,6 +56,7 @@
     "lint": "eslint src/**",
     "pretest": "npm run build:umd -- --environment BUILD:dev",
     "test": "npm run lint && jasmine",
+    "test-ts": "cd scripts/src && tsc > output.txt",
     "prepublishOnly": "npm run build:prod && npm run build:dev && npm run test"
   }
 }
