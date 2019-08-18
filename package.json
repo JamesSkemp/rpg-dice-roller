@@ -56,7 +56,7 @@
     "lint": "eslint src/**",
     "pretest": "npm run build:umd -- --environment BUILD:dev",
     "test": "npm run lint && jasmine",
-    "test-ts": "cd types/rpg-dice-roller.js && tsc > output.txt",
+    "test-ts": "cd scripts/src && tsc tests.ts && node tests.js",
     "prepublishOnly": "npm run build:prod && npm run build:dev && npm run test"
   }
 }

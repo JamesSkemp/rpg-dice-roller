@@ -10,7 +10,7 @@
         "outDir": "./bin/"
     },
     "include": [
-        "rpg-dice-roller.js-tests.ts",
-        "index.d.ts"
+        "tests.ts",
+        "../../types/index.d.ts"
     ]
 }
