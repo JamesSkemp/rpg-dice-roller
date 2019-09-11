@@ -1,0 +1,29 @@
+{
+    "version": "0.0.1",
+    "compilerOptions": {
+        "module": "commonjs",
+        "noImplicitAny": true,
+        "strictNullChecks": true,
+        "noImplicitThis": true,
+        "noImplicitReturns": true,
+        "preserveConstEnums": true,
+		"sourceMap": true,
+		"allowJs": true,
+		"baseUrl": "./",
+        "lib": [
+            "dom",
+            "scripthost",
+            "es5"
+		],
+		"typeRoots": [
+			"../types"
+		]
+    },
+    "include": [
+        "src/tests.ts",
+        "../types/index.d.ts"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
